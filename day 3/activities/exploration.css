@@ -1,0 +1,52 @@
+@font-face {
+    src: url("/fonts/Airstrike.TTF");
+    font-family: Airstrike;
+}
+
+body {
+    margin: 0;
+}
+
+#hero {
+    font-family: "Airstrike", sans-serif;
+    padding: 50px 50px 0 50px;
+    height: 200px;
+    background-image: url("/images/Milky\ Way\ Art\ GIF\ by\ xponentialdesign.gif");
+    background-position-y: -200px;
+    background-size: cover;
+    color: rgb(112, 186, 255);
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+.apply {
+    padding: 8px 15px;
+    background-color: #002e63;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    border: 0;
+}
+
+.cta {
+    border-bottom: 3px solid white;
+}
+
+.return {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: -40px;
+    text-align: center;
+    color: rgb(112, 186, 255);
+    text-shadow: 0px 0px 2px black;
+}
+
+#main-logo {
+    width: 150px;
+}
+
+.TandA {
+    text-align: center;
+    font-family: "Airstrike";
+    font-size: 30px;
+    margin-top: 25px;
+    color: rgb(79, 123, 163);
+}
